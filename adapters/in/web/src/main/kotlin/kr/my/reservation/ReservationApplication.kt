@@ -1,11 +1,11 @@
-package kr.my.reservation.myrevervations
+package kr.my.reservation
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MyReservationsApplication
+class ReservationApplication
 
 fun main(args: Array<String>) {
-    runApplication<MyReservationsApplication>(*args)
+    runApplication<ReservationApplication>(*args)
 }
